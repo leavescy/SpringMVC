@@ -35,6 +35,22 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.1.4.RELEASE</version>
         </dependency>
+      <dependency>
+          <groupId>com.cloudhopper.proxool</groupId>
+          <artifactId>proxool-cglib</artifactId>
+          <version>0.9.1</version>
+      </dependency>
+      <dependency>
+          <groupId>com.cloudhopper.proxool</groupId>
+          <artifactId>proxool</artifactId>
+          <version>0.9.1</version>
+      </dependency>
+      <dependency>
+          <groupId>org.mybatis</groupId>
+          <artifactId>mybatis-spring</artifactId>
+          <version>1.2.0</version>
+      </dependency>
+
   </dependencies>
   <build>
     <finalName>HelloSpringMVC</finalName>
